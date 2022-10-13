@@ -1,0 +1,127 @@
+body {
+    color: #282425;
+    background-color: #E0FFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+a {
+    color: #4682B4;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Arial Black', sans-serif;
+    /*font-style: italic;*/
+}
+
+h1 {
+    font-size: 60px;
+    text-align: left;
+    color: #4682B4;
+    
+    text-shadow: 0 3px 10px rgb(224, 255, 255,7);
+    margin: 0;
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+a {
+    font-style: italic;
+}
+
+.kontakt,
+.zajmy
+ {
+    background-color: #B0E0E6;
+}
+
+.paticka {
+    background-color: #4682B4 ;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.foto_kdojsem {
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+.fotogalerie img {
+    width: 32%;
+    border: 2px solid #4682B4;
+    border-radius: 10px;
+
+}
+
+.zajmy img {
+    width: 450px
+}
+
+.foto_Provence {
+    border-radius: 50px 50px 50px 0;
+    float: right;
+    margin: 0 0 30px 30px;
+}
+
+.foto_Fecamp {
+    clear: both;
+    border-radius: 0 50px 50px 50px;
+    float: right;
+    margin: 0 0 30px 30px;
+}
+
+section {
+    padding: 50px 15%;
+    overflow: auto;
+}
+.hlavicka {
+    padding:500px 30px 10px 30px;
+    background-image: url(Foto/Hackathon.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #4682B4 ;
+}
+
+.menu li {
+    display: inline-block;
+    
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #00BFFF;
+}
